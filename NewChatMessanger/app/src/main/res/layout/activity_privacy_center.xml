@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tm_background">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tm_surface"
+        android:title="Privacy Center"
+        android:titleTextColor="@color/tm_text_primary"
+        android:navigationIcon="@android:drawable/ic_media_previous" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textBackend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/tm_text_primary"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/tm_text_secondary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Aktive Hardening-Maßnahmen:
+• FLAG_SECURE gegen einfache Screenshots
+• EncryptedSharedPreferences für lokale Session
+• Cleartext-Traffic deaktiviert
+• Backup deaktiviert
+• Firebase-Architektur getrennt von Demo-Fallback
+
+Nächster Schritt für echten WhatsApp-Konkurrenten:
+• E2E Key Exchange
+• Geräte-Verifikation
+• Multi-Device
+• sichere Push-Sync-Strategie"
+            android:textColor="@color/tm_text_secondary" />
+    </LinearLayout>
+</LinearLayout>

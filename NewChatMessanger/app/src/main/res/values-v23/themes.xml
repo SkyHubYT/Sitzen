@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.TillMessager" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Statusbar transparent -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <!-- Light/Dark Icons automatisch -->
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+
+        <!-- Navigation -->
+        <item name="android:navigationBarColor">@color/tm_background</item>
+
+        <!-- Farben -->
+        <item name="colorPrimary">@color/tm_accent</item>
+        <item name="colorSurface">@color/tm_surface</item>
+        <item name="android:windowBackground">@color/tm_background</item>
+
+        <!-- Dark Mode -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+
+    </style>
+
+</resources>

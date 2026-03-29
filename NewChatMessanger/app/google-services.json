@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "11263572706",
+    "project_id": "till-messager-pro",
+    "storage_bucket": "till-messager-pro.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11263572706:android:518e9a3bee0e7de2c5bcbb",
+        "android_client_info": {
+          "package_name": "till.messager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfRalTOg197TdHiJOIKLgkuuKVDG-mHNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
